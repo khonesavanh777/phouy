@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+/*font-family: 'Playfair Display', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/*font-family: 'Anton', sans-serif;*/
+body{
+    background-image: url(images/828bab89-7854-4632-93c1-11c8b89838eb.jpg);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    height: 60px;
+    background-color: blueviolet;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5%;
+}
+header ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: 'Playfair Display', serif;
+    color: yellow;
+}
+nav .content{
+    font-family: 'Anton', sans-serif;
+    color: black;
+    font-size: 30px;
+}
+section h1{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: yellow;
+    margin: 0px;
+}
+section p{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color:white;
+}
+.profile img{
+   width: 600px;
+   border-radius: 50px;
+   box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+   
+}
+.profile{
+    text-align: center;
+}
+.kin img{
+    width: 500px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+}
+.kin{
+   margin-left:20%;
+   margin-top: 2%
+}
+.hb h1{
+    padding-right: 500px;
+    
+}
+.eat p{
+   padding-right: 300px;
+}
+.dm h1{
+    padding-left: 500px;
+}
+.imd img{
+  width: 300px;
+
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+    
+}
+.imd{
+    padding-left: 750px
+}
+.md p{
+    padding-left: 450px;
+}
+.mht img{
+     width: 500px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+}
+.mht{
+    text-align: center;
+}
+.ct{
+    border-radius: 2%;
+    background-color:purple;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+footer{
+    font-size: 30px;
+    text-align: center;
+    color: yellow;
+    margin-left: 500px;
+    
+}
+.social a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    background-color: azure;
+    margin: 20px; 10px;
+    border-radius: 50%;
+    text-align: center;
+    color: grey
+    
+    
+}
+.social{
+    display: flex;
+}
+.social a:hover{
+    background-color: pink;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+    
